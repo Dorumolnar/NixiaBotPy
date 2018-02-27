@@ -68,5 +68,11 @@ async def gdpsmodcmds(ctx):
     await bot.say(":fire:!delete")
     await asyncio.sleep(0.0)
     await bot.say(":fire:!setacc [name]")
+    
+@bot.command(pass_context=True)
+async def gdpsmodlist(ctx):
+    await bot.say("Owner: Chewie")
+    await bot.say("Elder Mods: none")
+    await bot.say("Mods: Doru, DragonUnicorn, Casper")
 
 bot.run(os.getenv('TOKEN'))
