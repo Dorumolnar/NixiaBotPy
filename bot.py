@@ -69,21 +69,4 @@ async def gdpsmodcmds(ctx):
     await asyncio.sleep(0.0)
     await bot.say(":fire:!setacc [name]")
 
-@bot.command(pass_context=True, hidden=True)
-async def secretcode123(ctx, message : str):
-    team_list = ["awsomepeeeps"]
-    entered_team = message.content[6:].lower()
-    role = discord.utils.get(message.server.roles, name=entered_team)
-    roles = [
-        "413413408461815828",
-    ]
-    if role in message.author.roles:
-        await bot.say("You already have awsome peeps!")
-    else:
-        try:
-            await bot.add_roles(message.author, role)
-            await bot.say("Succesfully added role Awsome Peeps.")
-        except discord.Forbidden:
-            await bot.say("I dont have perms to add roles!")
-
 bot.run(os.getenv('TOKEN'))
