@@ -72,7 +72,7 @@ async def gdpsmodcmds(ctx):
 @bot.command(pass_context=True)
 async def gdpsmodlist(ctx):
     await bot.say("Owner: Chewie")
-    await bot.say("Elder Mods: none")
-    await bot.say("Mods: Doru, DragonUnicorn, Casper")
+    await bot.say("Elder Mods: Doru")
+    await bot.say("Mods: DragonUnicorn, Casper")
 
 bot.run(os.getenv('TOKEN'))
