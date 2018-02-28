@@ -70,9 +70,12 @@ async def gdpsmodcmds(ctx):
     await bot.say(":fire:!setacc [name]")
     
 @bot.command(pass_context=True)
-async def modlist(ctx):
-    await bot.say("Owner: Chewie")
-    await bot.say("Elder Mods: Doru")
-    await bot.say("Mods: DragonUnicorn, Casper")
+async def staff(ctx):
+    await bot.say(":fire:Owner: Chewie")
+    await bot.say(":fire:2nd Owner: DragonUnicorn")
+    await bot.say(":fire:Discord: Admins: none")
+    await bot.say(":fire:Discord: Mods: Diru")
+    await bot.say(":fire:Eldermods: Diru")
+    await bot.say(":fire:Mods: Casper,DragonUnicorn")
 
 bot.run(os.getenv('TOKEN'))
