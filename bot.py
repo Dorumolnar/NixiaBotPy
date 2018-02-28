@@ -70,7 +70,7 @@ async def gdpsmodcmds(ctx):
     await bot.say(":fire:!setacc [name]")
     
 @bot.command(pass_context=True)
-async def gdpsmodlist(ctx):
+async def modlist(ctx):
     await bot.say("Owner: Chewie")
     await bot.say("Elder Mods: Doru")
     await bot.say("Mods: DragonUnicorn, Casper")
