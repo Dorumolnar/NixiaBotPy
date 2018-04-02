@@ -1,0 +1,154 @@
+[01/04/2018 13:50] ERROR red load_cogs 573: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Doru\Downloads\NixiaBot\cogs\owner.py", line 900, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Doru\Downloads\NixiaBot\cogs\audio.py", line 2549, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[01/04/2018 13:50] ERROR red <module> 616: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Doru\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[01/04/2018 14:07] ERROR red <module> 616: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Doru\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 468, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[01/04/2018 14:10] ERROR red <module> 616: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Doru\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 468, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[01/04/2018 14:17] ERROR red <module> 616: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Doru\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 468, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[01/04/2018 14:18] ERROR red <module> 616: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Doru\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 468, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[01/04/2018 14:36] INFO economy _set 380: Diru(381064643193602048) added 19283 credits to Diru (381064643193602048)
+[01/04/2018 14:36] INFO economy _set 380: Diru(381064643193602048) added 28828282828472721 credits to ChewTop (227908092568797185)
+[01/04/2018 14:36] INFO economy _set 380: ChewTop(227908092568797185) added 2395672397629436 credits to ChewTop (227908092568797185)
+[01/04/2018 14:37] INFO economy _set 380: ChewTop(227908092568797185) added 934725623597269238467368734896732894657938467598356792348723986723958672398673289673459862439867239835789347 credits to ChewTop (227908092568797185)
+[01/04/2018 14:37] INFO economy _set 393: ChewTop(227908092568797185) set 1000 credits to ChewTop (227908092568797185)
+[01/04/2018 14:38] INFO economy _set 393: ChewTop(227908092568797185) set 1000 credits to Diru (381064643193602048)
+[01/04/2018 14:38] INFO economy transfer 352: Diru(381064643193602048) transferred 1 credits to ChewTop(227908092568797185)
+[01/04/2018 14:39] INFO economy _set 386: ChewTop(227908092568797185) removed 1 credits to ChewTop (227908092568797185)
+[02/04/2018 13:17] INFO economy _set 380: ChewTop(227908092568797185) added 7389 credits to ChewTop (227908092568797185)
+[02/04/2018 13:28] INFO economy _set 380: Diru(381064643193602048) added 20000 credits to Diru (381064643193602048)
+[02/04/2018 13:36] INFO economy _set 393: Diru(381064643193602048) set 30 credits to CrazyGamer (320656030445076481)
+[02/04/2018 13:36] INFO economy _set 380: Diru(381064643193602048) added 600 credits to CrazyGamer (320656030445076481)
+[02/04/2018 13:37] INFO economy _set 380: Diru(381064643193602048) added 50 credits to ☁Missingno566☁ (406553740443910158)
+[02/04/2018 13:41] INFO economy _set 380: Diru(381064643193602048) added 500 credits to CrazyGamer (320656030445076481)
+[02/04/2018 13:54] INFO economy _set 386: Diru(381064643193602048) removed 19000 credits to Diru (381064643193602048)
+[02/04/2018 14:37] INFO economy _set 380: Diru(381064643193602048) added 100 credits to ZedHammer (321223197339156481)
+[02/04/2018 14:53] INFO economy _set 393: xDoruYT(381064643193602048) set 500 credits to FrostSpellzYT (202494307951706113)
+[02/04/2018 14:53] INFO economy _set 380: xDoruYT(381064643193602048) added 500 credits to FrostSpellzYT (202494307951706113)
